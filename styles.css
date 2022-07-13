@@ -1,5 +1,11 @@
+body, ul, li, h1, h2, a{
+margin: 0;
+padding: 0;
+font-family: Arial;
+}
+
 header{
-background-color: #F63232;
+background-color: rgb(226, 173, 28);
 padding: 20px;
 text-align: center;
 position: fixed;
@@ -19,15 +25,16 @@ header h1{
     position: relative;
 }
 .banner img{
-    max-width: 100%;
+    width: 100%;
 }
 .banner .welcome{
-    background-color: #FEB614;
+    background-color: #8f6a06;
     color: white;
     padding: 30px;
     position: absolute;
     left: 0;
     top: 30%;
+    border-radius: 20px;
 }
 .banner h2{
     font-size: 74px;
@@ -38,12 +45,80 @@ header h1{
 nav{
     background-color: #F4F4F4;
     padding: 20px;
+    position: sticky;
+    top: 105px;
 }
 nav ul{
     white-space: nowrap;
+    max-width: 1200px;
+    margin: 0% auto;
 }
 nav li{
     width: 25%;
     display: inline-block;
     font-size: 24px;
 }
+
+nav li a{
+    text-decoration: none;
+    color: rgb(202, 85, 7);
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: brown;
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{display: inline-block;
+width: 40%;
+margin: 20px 5%;
+}
+
+.images li img{
+    max-width: 100%;
+}
+
+section.join{
+    background: #F4F4F4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+
+.join h2{
+    font-size: 36px;
+}
+
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+
+footer{
+background: rgb(226, 173, 28);
+color: white;
+padding: 10px;
+text-align: center;
+}
+
