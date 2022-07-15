@@ -5,7 +5,7 @@ font-family: Arial;
 }
 
 header{
-background-color: rgb(226, 173, 28);
+background-color: rgb(226, 140, 28);
 padding: 20px;
 text-align: center;
 position: fixed;
@@ -105,6 +105,7 @@ section.join{
 
 .join h2{
     font-size: 36px;
+    
 }
 
 form input{
@@ -116,7 +117,7 @@ form input{
 }
 
 footer{
-background: rgb(226, 173, 28);
+background: rgb(226, 140, 28);
 color: white;
 padding: 10px;
 text-align: center;
